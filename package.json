@@ -1,0 +1,52 @@
+{
+  "name": "@idkjs/bs-aws-hub",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.4",
+  "description": "Bucklescript bindings for aws-amplify's hub module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:idkjs/bs-aws-hub.git"
+  },
+  "files": [
+    "/bsconfig.json",
+    "/src",
+    "/lib/js/src"
+  ],
+  "bugs": {
+    "url": "https://github.com/idkjs/bs-aws-hub/issues"
+  },
+  "homepage": "https://github.com/idkjs/bs-aws-hub#readme",
+  "keywords": [
+    "reason",
+    "reasonml",
+    "bucklescript",
+    "aws-amplify",
+    "hub",
+    "aws",
+    "listen",
+    "pubsub"
+  ],
+  "author": "Alain",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\"",
+    "build": "npm run clean && bsb -make-world",
+    "watch": "npm run clean && bsb -make-world -w",
+    "clean": "rm -rf lib && bsb -clean-world",
+    "postinstall": "[ ! -f package-links.json ] || ppl link-file"
+  },
+  "peerDependencies": {
+    "bs-platform": "^5.0.6"
+  },
+  "dependencies": {
+    "@ryb73/decco": "0.1.0",
+    "aws-amplify": "^1.1.40",
+    "@aws-amplify/core": "1.1.2"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.6"
+  }
+}
