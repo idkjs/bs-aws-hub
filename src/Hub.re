@@ -1,6 +1,6 @@
 /* https://github.com/aws-amplify/amplify-js/blob/master/packages/core/src/Hub.ts
    hub export `export default Hub;`
-   node_modules/@aws-amplify/core/src/Hub.t */
+   node_modules/@aws-amplify/core/src/Hub.ts */
 type t;
 [@bs.module "@aws-amplify/core"] external hub: t = "Hub";
 
