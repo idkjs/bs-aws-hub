@@ -39,14 +39,14 @@
     "postinstall": "[ ! -f package-links.json ] || ppl link-file"
   },
   "peerDependencies": {
-    "bs-platform": "^5.0.6"
+    "bs-platform": "^5.2.1"
   },
   "dependencies": {
     "@ryb73/decco": "0.1.0",
-    "aws-amplify": "^1.1.40",
-    "@aws-amplify/core": "1.1.2"
+    "aws-amplify": "^1.2.4",
+    "@aws-amplify/core": "1.2.4"
   },
   "devDependencies": {
-    "bs-platform": "^5.0.6"
+    "bs-platform": "^5.2.1"
   }
 }
