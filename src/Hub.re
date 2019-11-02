@@ -50,8 +50,6 @@ type attributes = {
 [@bs.deriving abstract]
 type data = {
   username: string,
-  [@bs.as "Session"]
-  session: Js.Nullable.t(Js.t({.})),
   attributes,
 };
 [@bs.deriving abstract]
